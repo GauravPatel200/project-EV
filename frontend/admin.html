@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Panel | E-Fill</title>
+
+    <link rel="stylesheet"
+          href="css/admin.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>
+
+        ⚡ Admin Dashboard
+
+    </h1>
+
+    <!-- Add Station Form -->
+
+    <form id="stationForm">
+
+        <input
+
+            type="text"
+
+            id="name"
+
+            placeholder="Station Name"
+
+            required
+
+        >
+
+        <input
+
+            type="text"
+
+            id="location"
+
+            placeholder="Location"
+
+            required
+
+        >
+
+        <input
+
+            type="text"
+
+            id="chargerType"
+
+            placeholder="Charger Type"
+
+            required
+
+        >
+
+        <input
+
+            type="number"
+
+            id="slots"
+
+            placeholder="Available Slots"
+
+            required
+
+        >
+
+        <input
+
+            type="number"
+
+            id="pricePerUnit"
+
+            placeholder="Price Per Unit"
+
+            required
+
+        >
+
+        <input
+
+            type="file"
+
+            id="image"
+
+            accept="image/*"
+
+        >
+
+        <button type="submit">
+
+            Add Station
+
+        </button>
+
+    </form>
+
+    <hr>
+
+    <h2>
+
+        All Stations
+
+    </h2>
+
+    <div id="stationList">
+
+    </div>
+
+</div>
+
+<script src="js/admin.js"></script>
+
+</body>
+
+</html>

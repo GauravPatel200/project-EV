@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Book Charging Slot | E-Fill</title>
+
+    <link rel="stylesheet"
+          href="css/booking.css">
+
+</head>
+
+<body>
+
+<div class="booking-container">
+
+    <h1>
+
+        ⚡ Book Charging Slot
+
+    </h1>
+
+    <form id="bookingForm">
+
+        <div class="input-group">
+
+            <label>
+
+                Station ID
+
+            </label>
+
+            <input
+                type="text"
+                id="stationId"
+                readonly>
+
+        </div>
+
+        <div class="input-group">
+
+            <label>
+
+                Vehicle Number
+
+            </label>
+
+            <input
+                type="text"
+                id="vehicleNumber"
+                placeholder="MP09AB1234"
+                required>
+
+        </div>
+
+        <div class="input-group">
+
+            <label>
+
+                Charging Date
+
+            </label>
+
+            <input
+                type="date"
+                id="date"
+                required>
+
+        </div>
+
+        <div class="input-group">
+
+            <label>
+
+                Time Slot
+
+            </label>
+
+            <select id="time">
+
+                <option>09:00 AM</option>
+
+                <option>10:00 AM</option>
+
+                <option>11:00 AM</option>
+
+                <option>12:00 PM</option>
+
+                <option>01:00 PM</option>
+
+                <option>02:00 PM</option>
+
+                <option>03:00 PM</option>
+
+                <option>04:00 PM</option>
+
+                <option>05:00 PM</option>
+
+            </select>
+
+        </div>
+
+        <div class="input-group">
+
+            <label>
+
+                Charger Type
+
+            </label>
+
+            <select id="chargerType">
+
+                <option>AC Charger</option>
+
+                <option>DC Fast Charger</option>
+
+                <option>CCS2</option>
+
+            </select>
+
+        </div>
+
+        <button type="submit">
+
+            Confirm Booking
+
+        </button>
+
+        <p id="message"></p>
+
+    </form>
+
+</div>
+
+<script src="js/booking.js"></script>
+
+</body>
+
+</html>

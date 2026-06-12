@@ -1,0 +1,175 @@
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+font-family:Poppins,sans-serif;
+
+}
+
+body{
+
+background:#f5f7fa;
+
+}
+
+header{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 50px;
+
+background:#18a558;
+
+color:white;
+
+}
+
+header nav a{
+
+margin-left:20px;
+
+color:white;
+
+text-decoration:none;
+
+}
+
+.banner{
+
+padding:60px;
+
+text-align:center;
+
+background:white;
+
+}
+
+.banner h1{
+
+font-size:42px;
+
+margin-bottom:15px;
+
+}
+
+.search-box{
+
+padding:30px;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.search-box input{
+
+width:500px;
+
+padding:15px;
+
+font-size:16px;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+outline:none;
+
+}
+
+.station-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:25px;
+
+padding:40px;
+
+}
+
+.station-card{
+
+background:white;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.station-card:hover{
+
+transform:translateY(-5px);
+
+}
+
+.station-card h2{
+
+margin-bottom:10px;
+
+}
+
+.station-card p{
+
+margin:8px 0;
+
+}
+
+.station-card button{
+
+margin-top:15px;
+
+padding:12px 20px;
+
+border:none;
+
+background:#18a558;
+
+color:white;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
+
+.search-box {
+
+    display: flex;
+
+    gap: 15px;
+
+    margin: 20px;
+
+}
+
+.search-box input,
+
+.search-box select {
+
+    flex: 1;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+}

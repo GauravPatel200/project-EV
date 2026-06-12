@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>User Dashboard | E-Fill</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            ⚡ E-Fill
+
+        </div>
+
+        <ul>
+
+            <li class="active">
+
+                <a href="dashboard.html">
+
+                    <i class="fa-solid fa-house"></i>
+
+                    Dashboard
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="stations.html">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Stations
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="booking.html">
+
+                    <i class="fa-solid fa-calendar-check"></i>
+
+                    Book Slot
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="profile.html">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    Profile
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="#" id="logoutBtn">
+
+                    <i class="fa-solid fa-right-from-bracket"></i>
+
+                    Logout
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- Main -->
+
+    <main>
+
+        <!-- Top -->
+
+        <div class="top-bar">
+
+            <h2>
+
+                Welcome,
+
+                <span id="userName">
+
+                    User
+
+                </span>
+
+            </h2>
+
+        </div>
+
+        <!-- Cards -->
+
+        <section class="cards">
+
+            <div class="card">
+
+                <i class="fa-solid fa-bolt"></i>
+
+                <h3>
+
+                    Battery
+
+                </h3>
+
+                <p>
+
+                    78%
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <h3>
+
+                    Nearby Stations
+
+                </h3>
+
+                <p id="stationCount">
+
+                    0
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-calendar"></i>
+
+                <h3>
+
+                    Total Bookings
+
+                </h3>
+
+                <p id="bookingCount">
+
+                    0
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-wallet"></i>
+
+                <h3>
+
+                    Wallet
+
+                </h3>
+
+                <p>
+
+                    ₹2500
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Recent Bookings -->
+
+        <section class="booking-table">
+
+            <h2>
+
+                Recent Bookings
+
+            </h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Station</th>
+
+                        <th>Date</th>
+
+                        <th>Time</th>
+
+                        <th>Status</th>
+
+                        <th>Action</th>
+
+                    </tr>
+                </thead>
+
+                <tbody id="bookingBody">
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>
