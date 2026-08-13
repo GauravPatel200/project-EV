@@ -25,7 +25,4 @@ It combines **hardware, software, and cloud services** to make EV adoption seaml
 | **Mobile App**       | Locate stations, book slots, track sessions.                               |
 | **Energy Source**    | Grid electricity + renewable integration (solar/wind).                     |
 
----
 
-## ⚙️ Charging Types
-- **Level
